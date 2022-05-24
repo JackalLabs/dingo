@@ -1,6 +1,6 @@
 {
   "name": "dingojs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple but feature filled interface between Filecoin's Lotus client and JS.",
   "keywords": ["filecoin", "api", "lotus", "jackal"],
   "homepage": "https://github.com/JACKAL-DAO/Dingo",
@@ -10,7 +10,7 @@
     "build": "tsc",
     "test": "echo \"Error: no tests included\" && exit 1"
   },
-  "author": "Marston Connell <marston.ian.connell@gmail.com> (https://marstonconnell.xyz)",
+  "author": "Erin Rivas <erin@jackallabs.io>, Marston Connell <marston@jackallabs.io>",
   "license": "SEE LICENSE IN <LICENSE>",
   "repository": {
     "type": "git",
