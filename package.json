@@ -1,8 +1,13 @@
 {
   "name": "dingojs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple but feature filled interface between Filecoin's Lotus client and JS.",
-  "keywords": ["filecoin", "api", "lotus", "jackal"],
+  "keywords": [
+    "filecoin",
+    "api",
+    "lotus",
+    "jackal"
+  ],
   "homepage": "https://github.com/JACKAL-DAO/Dingo",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
