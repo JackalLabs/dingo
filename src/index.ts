@@ -1,26 +1,18 @@
-import {DWallet} from "./helpers/wallet";
-import {DClient} from "./helpers/client";
+import Core from "./helpers/core";
+import DClient from "./helpers/client";
+import DWallet from "./helpers/wallet";
+
 import {postJson} from "./helpers/network";
 
-import {PostBundle} from "./interfaces/IPostBundle";
-
-export default class Dingo {
-    bundle: PostBundle
+export default class Dingo extends Core {
     wallet
     client
 
-    constructor (rpc: string, tokenStr: string, bundle?: PostBundle) {
-        if (bundle) {
-            this.bundle = bundle
-        } else {
-            this.bundle = {
-                endpoint: rpc,
-                tokenStr: tokenStr
-            }
-        }
+    constructor (rpc: string, tokenStr: string) {
+        super(rpc, tokenStr)
         // children
-        this.wallet = new DWallet(this.bundle)
-        this.client = new DClient(this.bundle)
+        this.wallet = new DWallet(rpc, tokenStr)
+        this.client = new DClient(rpc, tokenStr)
 
     }
 

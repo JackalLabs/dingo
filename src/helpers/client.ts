@@ -1,11 +1,11 @@
-import Dingo from "../index";
+import Core from "./core";
+
 import {postJson} from "./network";
-import {PostBundle} from "../interfaces/IPostBundle";
 
 /** @internal */
-export class DClient extends Dingo {
-    constructor(cfg: PostBundle) {
-        super('', '', cfg)
+export default class DClient extends Core {
+    constructor (rpc: string, tokenStr: string) {
+        super(rpc, tokenStr)
     }
 
     balance (path: string) {
