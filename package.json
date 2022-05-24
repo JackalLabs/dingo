@@ -8,6 +8,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "prepare": "npm run build",
     "test": "echo \"Error: no tests included\" && exit 1"
   },
   "author": "Erin Rivas <erin@jackallabs.io>, Marston Connell <marston@jackallabs.io>",
