@@ -16,18 +16,6 @@ export default class Dingo extends Core {
 
     }
 
-    setRpc (rpc: string) {
-        this.bundle.endpoint = rpc
-    }
-    readRpc () {
-        return this.bundle.endpoint
-    }
-
-    /** @internal */
-    postSimpleJson (simpleMethod: string) {
-        return postJson(simpleMethod, this.bundle)
-    }
-
     version () {
         return this.postSimpleJson("Filecoin.Version")
     }
