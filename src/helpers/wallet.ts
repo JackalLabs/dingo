@@ -1,9 +1,10 @@
 import Core from "./core";
 
 import {postJson} from "./network";
+import Wallet from "../interfaces/IWallet";
 
 /** @internal */
-export default class DWallet extends Core {
+export default class DWallet extends Core implements Wallet {
     constructor (rpc: string, tokenStr: string) {
         super(rpc, tokenStr)
     }

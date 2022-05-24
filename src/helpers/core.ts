@@ -2,7 +2,7 @@ import {postJson} from "./network";
 
 import {PostBundle} from "../interfaces/IPostBundle";
 
-export default class Core {
+export default class Core implements Core{
     bundle: PostBundle
 
     constructor (rpc: string, tokenStr: string) {

@@ -2,7 +2,7 @@ import Core from "./helpers/core";
 import DClient from "./helpers/client";
 import DWallet from "./helpers/wallet";
 
-export default class Dingo extends Core {
+export default class Dingo extends Core implements Dingo{
     wallet
     client
 

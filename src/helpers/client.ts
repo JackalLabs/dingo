@@ -1,9 +1,10 @@
 import Core from "./core";
 
 import {postJson} from "./network";
+import Client from "../interfaces/IClient";
 
 /** @internal */
-export default class DClient extends Core {
+export default class DClient extends Core implements Client{
     constructor (rpc: string, tokenStr: string) {
         super(rpc, tokenStr)
     }
