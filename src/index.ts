@@ -2,8 +2,6 @@ import Core from "./helpers/core";
 import DClient from "./helpers/client";
 import DWallet from "./helpers/wallet";
 
-import {postJson} from "./helpers/network";
-
 export default class Dingo extends Core {
     wallet
     client
@@ -13,7 +11,6 @@ export default class Dingo extends Core {
         // children
         this.wallet = new DWallet(rpc, tokenStr)
         this.client = new DClient(rpc, tokenStr)
-
     }
 
     version () {
