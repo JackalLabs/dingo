@@ -1,4 +1,4 @@
-import axios, {AxiosResponse, Method} from "axios"
+import axios, {Method} from "axios"
 
 import {PostBundle} from "../interfaces/IPostBundle";
 import FilecoinResponse from "../interfaces/IFilecoinResponse";

@@ -4,8 +4,9 @@ import DWallet from "./helpers/wallet";
 
 import Wallet from "./interfaces/IWallet";
 import Client from "./interfaces/IClient";
+import DingoFrame from "./interfaces/IDingo";
 
-export default class Dingo extends Core implements Dingo {
+export default class Dingo extends Core implements DingoFrame {
     wallet: Wallet
     client: Client
 

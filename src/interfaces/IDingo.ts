@@ -1,15 +1,15 @@
-import {AxiosResponse} from "axios";
+import FilecoinResponse from "./IFilecoinResponse";
 
 import Wallet from "./IWallet";
 import Client from "./IClient";
 
-export default interface Dingo {
+export default interface DingoFrame {
     client: Client
     wallet: Wallet
 
-    version(): Promise<AxiosResponse>
-    shutdown(): Promise<AxiosResponse>
-    discover(): Promise<AxiosResponse>
+    version(): Promise<FilecoinResponse>
+    shutdown(): Promise<FilecoinResponse>
+    discover(): Promise<FilecoinResponse>
 
     daysToBlocks(days: number): number
     monthsToBlocks(months: number): number
