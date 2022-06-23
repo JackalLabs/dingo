@@ -8,7 +8,6 @@
     "lotus",
     "jackal"
   ],
-  "homepage": "https://github.com/JACKAL-DAO/Dingo",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -16,12 +15,30 @@
     "packit": "tsc && npm pack --pack-destination packs",
     "test": "echo \"Error: no tests included\" && exit 1"
   },
-  "author": "Erin Rivas <erin@jackallabs.io>, Marston Connell <marston@jackallabs.io>",
-  "license": "SEE LICENSE IN <LICENSE>",
+  "contributors": [
+    {
+      "name" : "Jackal Labs",
+      "email" : "devadmin@jackallabs.io",
+      "url" : "https://jackallabs.io"
+    },
+    {
+      "name" : "Marston Connell",
+      "email" : "marston@jackallabs.io"
+    },
+    {
+      "name" : "Erin Rivas",
+      "email" : "erin@jackallabs.io"
+    }
+  ],
+  "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JACKAL-DAO/Dingo.git"
+    "url": "git+https://github.com/JackalLabs/dingo.git"
   },
+  "bugs": {
+    "url": "https://github.com/JackalLabs/dingo/issues"
+  },
+  "homepage": "https://github.com/JackalLabs/dingo/#readme",
   "dependencies": {
     "axios": "^0.24.0"
   },
