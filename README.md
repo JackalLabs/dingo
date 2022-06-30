@@ -1,4 +1,4 @@
-![Dingo Banner](https://raw.githubusercontent.com/JACKAL-DAO/Dingo/main/banner.png)
+![Dingo Banner](./assets/banner.png)
 
 # Dingo
 
