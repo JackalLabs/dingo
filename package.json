@@ -1,6 +1,6 @@
 {
   "name": "dingojs",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "A simple but feature filled interface between Filecoin's Lotus client and JS.",
   "keywords": [
     "filecoin",
@@ -17,17 +17,17 @@
   },
   "contributors": [
     {
-      "name" : "Jackal Labs",
-      "email" : "devadmin@jackallabs.io",
-      "url" : "https://jackallabs.io"
+      "name": "Jackal Labs",
+      "email": "devadmin@jackallabs.io",
+      "url": "https://jackallabs.io"
     },
     {
-      "name" : "Marston Connell",
-      "email" : "marston@jackallabs.io"
+      "name": "Marston Connell",
+      "email": "marston@jackallabs.io"
     },
     {
-      "name" : "Erin Rivas",
-      "email" : "erin@jackallabs.io"
+      "name": "Erin Rivas",
+      "email": "erin@jackallabs.io"
     }
   ],
   "license": "SEE LICENSE IN LICENSE",
