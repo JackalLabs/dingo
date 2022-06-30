@@ -1,4 +1,5 @@
-export interface PostBundle {
+export default interface PostBundle {
     endpoint: string,
-    tokenStr: string
+    tokenStr: string,
+    id: number
 }
